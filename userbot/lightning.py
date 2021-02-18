@@ -8,13 +8,13 @@ MASTER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
 
 #op for keinshin
 
-Keinshin = "[KEINSHIN](https://t.me/keinshin)"
-OP = "[BLACK LIGHTNING](https://github.com/KeinShin/Black-Lightning)"
-OKAY = "[SUPPORT GROUP](https://t.me/LIGHTINGSUPPORT)"
+shashank = "[SHASHANK](https://t.me/theshashank)"
+OP = "[SHASHANK](https://github.com/theshashankk/WHITEDEVIL1.0)"
+OKAY = "[SUPPORT GROUP](https://t.me/joinchat/Hh00S_K219djB_5C)"
 #itna test h aur aage krte h
 #test successful raha ab aage 
-ALIVE = "BLACK LIGHTNING BOT IS ON 🔥 FIRE 🔥" #make by LEGENDX22 for black lightning
-BOT = " HELLO MASTER MY NAME IS BLACK LIGHTNING BOT I AM A BEST USERBOT 💝"
+ALIVE = "WHITE DEVIL BOT IS ON 🔥 FIRE 🔥" #make by LEGENDX22 for WHITE DEVIL
+BOT = " HELLO MASTER MY NAME IS WHITE DEVIL BOT I AM A BEST USERBOT 💝"
 EMOJI = "⚡"
 #yrr isko apne bot me aply krne se pehle mere se pooch lena ok
 #aur aage add kruga abhi busy okay 🤔
