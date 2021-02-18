@@ -6,7 +6,7 @@
 from userbot import ALIVE_NAME 
 MASTER = str(ALIVE_NAME) if ALIVE_NAME else "LEGEND BOY"
 
-#op for keinshin
+#op for SHASHANK
 
 shashank = "[SHASHANK](https://t.me/theshashank)"
 OP = "[SHASHANK](https://github.com/theshashankk/WHITEDEVIL1.0)"
