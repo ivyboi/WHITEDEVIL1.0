@@ -29,3 +29,4 @@ with client:
         "THIS IS YOUR STRING SESSION \nJoin @whitedeviluserbot For More Support."
     )
     print("⬆ Please Check Your Telegram Saved Message For Your String.")
+print("⬆ thanks for choosing white devil.")
