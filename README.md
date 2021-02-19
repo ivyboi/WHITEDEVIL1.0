@@ -1,5 +1,5 @@
 
-<h2 align="center"><b>Owner: <a href="https://telegram.dog/krish1303y">✦҈͜͡ৡৢ͜͡➛『Ꭰᥲʀκ͢❥』🤍..𝐷𝐴𝑅𝐾 𝐷𝐸𝑉𝐼𝐿..🤍🌀╚»☆𝘽𝙊𝙔☆«╝⫸🌀  ⁪</a></b></h2>
+<h2 align="center"><b>Owner: <a href="https://telegram.dog/krish1303y">✦҈͜͡ৡৢ͜͡➛『Ꭰᥲʀκ͢❥』🤍..𝐒𝐡𝐚𝐬𝐡𝐚𝐧𝐤..🤍🌀╚»☆𝘽𝙊𝙔☆«╝⫸🌀 ⁪</a></b></h2>
 <br>
 <p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/8e3d5f7861e270ae8173c.jpg"></a></p> 
 </p>
