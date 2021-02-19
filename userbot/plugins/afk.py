@@ -122,7 +122,7 @@ async def on_afk(event):
             f"**Hey!! My master is currently offline... Since when**?\n**For** `{total_afk_time}` "
             + f"\n\n__Reason__ :-\n**{reason}**"
             if reason
-            else f"**Heyy!**\n__I am currently unavailable. Since when, you ask? For {total_afk_time} .__\n\nWhen will I be back? Soon __Whenever I feel like coming back__🤧🚶🚶  "
+            else f"**Heyy!**\n__I AM GIVING PUCHIE. Since when, you ask? For {total_afk_time} .__\n\nFUMK BSDKKK KUCK KAAM YAAD AA GYA YAAD MT KR...__🤧🚶🚶  "
         )
         msg = await event.reply(message_to_reply)
         await asyncio.sleep(5)
@@ -131,7 +131,7 @@ async def on_afk(event):
         last_afk_message[event.chat_id] = msg  # pylint:disable=E0602
 
 
-@borg.on(lightning_cmd(pattern=r"afk ?(.*)", outgoing=True))  # pylint:disable=E0602
+@borg.on(DEVIL_cmd(pattern=r"afk ?(.*)", outgoing=True))  # pylint:disable=E0602
 async def _(event):
     if event.fwd_from:
         return
