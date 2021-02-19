@@ -54,7 +54,7 @@ Thx To  Friday And Dark Cobra Bot :") And Big Big Thx To 🔱╚»★𝙍𝘿�
 
 ## Tottal CMDs -: CMDS Are More Than 470 :D
 
-# About ɮʟǟƈᏦ ʟɨɢɦƭռɨռɢ
+# About աɦɨȶɛ ɖɛʋɨʟ
 
 1. Can Do Many This Such As Download ANy Video From Youtube and Other Sites
 
