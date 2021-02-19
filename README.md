@@ -1,7 +1,7 @@
 
 <h2 align="center"><b>Owner: <a href="https://telegram.dog/krish1303y">B乛LAC丨ᗩᑎᗰᗝᒪ ᔕᖇIᐯᗩᔕ丅ᗩᐯᗩ 🇮🇳 ⁪⁬⁮⁮⁮#ƈʏɮɛʀlєgєnds</a></b></h2>
 <br>
-<p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/07d55d71944a852ac6d5e.jpg"></a></p> 
+<p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/8e3d5f7861e270ae8173c.jpg"></a></p> 
 </p>
 <h1>BLACK LIGHTNING</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
