@@ -3,7 +3,7 @@
 <br>
 <p align="center"><a href="https://t.me/lightningsupport"><img src="https://telegra.ph/file/8e3d5f7861e270ae8173c.jpg"></a></p> 
 </p>
-<h1>BLACK LIGHTNING</h1>
+<h1>DARK DEVIL</h1>
 <b>A Powerful, Smart And Simple Userbot In Telethon.</b>
 <br>
 <br>
