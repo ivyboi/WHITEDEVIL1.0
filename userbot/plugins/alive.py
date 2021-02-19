@@ -16,31 +16,31 @@ from userbot.utils import lightning_cmd, edit_or_reply, sudo_cmd
 
 ALIVE_PIC = os.environ.get("ALIVE_PIC", None)
 if ALIVE_PIC is None:
-    PM_iMG = "https://telegra.ph/file/5db4087d9de9b738ad0fc.mp4"
+    PM_iMG = "https://telegra.ph/file/8e3d5f7861e270ae8173c.jpg"
 else:
     PM_iMG = ALIVE_PIC
 
 
 HELL_PIC = os.environ.get("HELL_PIC", None)
 if HELL_PIC is None:
-    HELL_IMG = "https://telegra.ph/file/c828d5c695b4cf95c814e.mp4"
+    HELL_IMG = "https://telegra.ph/file/8e3d5f7861e270ae8173c.jpg"
 else:
     HELL_IMG = HELL_PIC
 
 CAT_IMGE = os.environ.get("CAT_IMGE", None)
 if CAT_IMGE is None:
-    CAT_IMG = "https://telegra.ph/file/63abc60224dc567e3d441.jpg"
+    CAT_IMG = "https://telegra.ph/file/8e3d5f7861e270ae8173c.jpg"
 else:
     CAT_IMG = CAT_IMGE
 
 version = "4.5"
 python_version = "3.8.5"
 catversion = "3.0"
-ALIVE_MSG = Config.ALIVE_MSG or "✮ MY BOT IS RUNNING SUCCESFULLY ✮"
+ALIVE_MSG = Config.ALIVE_MSG or "✮ 𝐌𝐘 𝐁𝐎𝐓 𝐈𝐒 𝐑𝐔𝐍𝐍𝐈𝐍𝐆 𝐒𝐌𝐎𝐎𝐓𝐇𝐋𝐘😁😁 ✮"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
 hellversion = "7.0"
-# 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "вℓα¢к ℓιgнтηιηg"
+# 🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "ωнιтε ∂εvιℓ"
 ALIVE_PHOTTO = os.environ.get("ALIVE_PHOTTO", None)
 
 # Thanks to Sipak bro and Raganork..
@@ -83,19 +83,19 @@ def get_readable_time(seconds: int) -> str:
 async def amireallyalive(salive):
     """ For .alive command, check if the bot is running.  """
     if ALIVE_PHOTTO:
-        pm_caption = "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
+        pm_caption = "**ωнιтε ∂εvιℓ 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
         pm_caption += f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
         pm_caption += "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
         pm_caption += "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/whitedeviluserbot)\n"
         )
         pm_caption += (
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/whitedeviluserbot)\n"
         )
-        pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
-        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)"
+        pm_caption += "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://proskapp.blogspot.com)\n"
+        pm_caption += "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ 𝑾𝑯𝑰𝑻𝑬 𝑫𝑬𝑽𝑰𝑳 ](https://t.me/whitedeviluserbot)\n"
+        pm_caption += "[┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛]"
         await salive.get_chat()
         await salive.delete()
         """ For .allive command, check if the bot is running.  """
@@ -116,15 +116,15 @@ async def amireallyalive(salive):
         await borg.send_file(salive.chat_id, file=sticker)
         await borg.send_message(
             salive.chat_id,
-            "**вℓα¢к ℓιgнтηιηg 𝙸𝚂 🅾︎🅽🅻🅸🅽🅴**\n"
+            "**𝑾𝑯𝑰𝑻𝑬 𝑫𝑬𝑽𝑰𝑳 𝑰𝑺... 🅾︎🅽🅻🅸🅽🅴**\n"
             f"**𝕄𝕪 𝔹𝕠𝕤𝕤**            : {DEFAULTUSER}\n"
             "𝚃𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽        : 1.17.5\n"
             "𝙿𝚈𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽          : 3.9.0\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/blacklightningot)\n"
-            "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https://jenaatul8.wixsite.com/hellboi-atul)\n"
-            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [ вℓα¢к ℓιgнтηιηg ](https://t.me/blacklightningot)\n"
-            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛](https://t.me/blacklightningot)",
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙰𝙽𝙽𝙴𝙻         : [ᴊᴏɪɴ](https://t.me/whitedeviluserbot)\n"
+            "𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿           : [ᴊᴏɪɴ](https://t.me/whitedeviluserbot)\n"
+            "𝘓𝘐𝘚𝘌𝘕𝘊𝘌                  : [AGPL-3.0  ʟɪᴄᴇɴꜱᴇ](https;//prskapp.blogspot.com)\n"
+            "𝘾𝙊𝙋𝙔𝙍𝙄𝙂𝙃𝙏 𝘽𝙔            : [𝕨𝕙𝕚𝕥𝕖 𝕕𝕖𝕧𝕚𝕝](https://t.me/whitedeviluserbot)\n"
+            "[ ┏┓━┏┓━━━━┏┓━┏┓━━━━━\n ┃┃━┃┃━━━━┃┃━┃┃━━━━━\n ┃┗━┛┃┏━━┓┃┃━┃┃━┏━━┓\n ┃┏━┓┃┃┏┓┃┃┃━┃┃━┃┏┓┃ \n ┃┃━┃┃┃┃━┫┃┗┓┃┗┓┃┗┛┃ \n ┗┛━┗┛┗━━┛┗━┛┗━┛┗━━┛]",
             link_preview=False,
         )
         await salive.delete()
@@ -144,7 +144,7 @@ else:
 kraken = bot.uid
 
 
-pm_caption = "__**🔥🔥ɮʟǟƈӄ ʟɨɢɦȶռɨռɢ ɨs օռʟɨռɛ🔥🔥**__\n\n"
+pm_caption = "__**🔥🔥ωɦเƭε ∂εѵเℓ เร σɳℓเɳε🔥🔥**__\n\n"
 
 pm_caption += (
     f"               __↼🄼🄰🅂🅃🄴🅁⇀__\n**『[{DEFAULTUSER}](tg://user?id={kraken})』**\n\n"
@@ -152,18 +152,18 @@ pm_caption += (
 
 pm_caption += "🛡️TELETHON🛡️ : `1.15.0` \n"
 
-pm_caption += f"😈ɮʟǟƈӄ ʟɨɢɦȶռɨռɢ😈       : __**{hellversion}**__\n"
+pm_caption += f"😈աɦɨȶɛ ɖɛʋɨʟ😈       : __**{hellversion}**__\n"
 
 pm_caption += f"⚜️Sudo⚜️            : `{sudou}`\n"
 
-pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/lightningsupport)\n"
+pm_caption += "⚠️CHANNEL⚠️   : [ᴊᴏɪɴ](https://t.me/whitedeviluserbot)\n"
 
-pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/krish1303y)\n\n"
+pm_caption += "🔥CREATOR🔥    : [Nub Here](https://t.me/theshashank)\n\n"
 
-pm_caption += "    [✨REPO✨](https://github.com/KeinShin/Black-Lightningt) 🔹 [📜License📜](https://github.com/KeinShin/Black-Lightning/blob/master/LICENSE)"
+pm_caption += "    [✨REPO✨](https://github.com/theshashankk/WHITEDEVIL1.0) 🔹 [📜License📜](https://github.com/theshashankk/WHITEDEVIL1.0)"
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="halive$"))
+@borg.on(devil_cmd(outgoing=True, pattern="halive$"))
 @borg.on(sudo_cmd(pattern="halive$", allow_sudo=True))
 async def amireallyalive(halive):
     await halive.get_chat()
@@ -177,7 +177,7 @@ async def amireallyalive(halive):
 # Credits To catbot And Sandi
 
 
-@borg.on(lightning_cmd(outgoing=True, pattern="calive$"))
+@borg.on(devil_cmd(outgoing=True, pattern="calive$"))
 @borg.on(sudo_cmd(pattern="calive$", allow_sudo=True))
 async def amireallyalive(calive):
     if calive.fwd_from:
@@ -189,7 +189,7 @@ async def amireallyalive(calive):
         pm_caption = f"**{ALIVE_MSG}**\n\n"
         pm_caption += f"**{EMOJI} Database :** `{check_sgnirts}`\n"
         pm_caption += f"**{EMOJI} Telethon version :** `{version}\n`"
-        pm_caption += f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+        pm_caption += f"**{EMOJI} devil Userbot Version :** `{catversion}`\n"
         pm_caption += f"**{EMOJI} Python Version :** `{python_version()}\n`"
         pm_caption += f"**{EMOJI} Uptime :** `{uptime}\n`"
         pm_caption += f"**{EMOJI} Master:** {DEFAULTUSER}\n"
@@ -203,7 +203,7 @@ async def amireallyalive(calive):
             f"**{ALIVE_MSG}**\n\n"
             f"**{EMOJI} Database :** `{check_sgnirts}`\n"
             f"**{EMOJI} Telethon Version :** `{version}\n`"
-            f"**{EMOJI} Lightning Userbot Version :** `{catversion}`\n"
+            f"**{EMOJI} devil Userbot Version :** `{catversion}`\n"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {DEFAULTUSER}\n",
@@ -280,7 +280,7 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@lightningsupport"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "@whitedevilsupport"
 
 
 CMD_HELP.update(
@@ -296,11 +296,11 @@ CMD_HELP.update(
         \n\n**Syntax : **`.dalive `\
         \n**Function : **__ .DC Uerbot's Alive.__\
         \n\n**Syntax : **`.alive `\
-        \n**Function : **__ .Lightning Uerbot's Alive.__\
+        \n**Function : **__ .devil Uerbot's Alive.__\
         \n\n**Syntax : **`.awake `\
         \n**Function : **__ .Awake.__\
         \n\n**Syntax : **`.salive `\
-        \n**Function : **__ .Lightning Uerbot's Alive.__\
+        \n**Function : **__ .devil Uerbot's Alive.__\
         \n\n\n**NOTE : All Credits To Thier Respective !!**"
     }
 )
