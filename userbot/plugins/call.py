@@ -36,22 +36,23 @@ async def _(event):
     animation_chars = [
         "`Connecting To Telegram Headquarters...`",
         "`Call Connected.`",
-        "`Telegram: Hello This is Telegram HQ. Who is this?`",
-        "`Me: Yo this is` [Lightning SUpport](t.me/blacklightningott) ,`Please Connect me to my idiot bro,Ayush Durov`",
-        "`User Authorised.`",
-        "`Calling Pavel Durov`  `At +916969696969`",
-        "`Private  Call Connected...`",
-        "`Me: Hello Sir, Please Ban This Telegram Account.`",
-        "`Pavel: May I Know Who Is This?`",
-        "`Me: Yo Brah, itz me`  ",
-        "`Pavel: OMG!!! Long time no see, Wassup Brother...\nI'll Make Sure That Guy Account Will Get Banned Within 24Hrs.`",
-        "`Me: Thanks, See You Later Brah.`",
-        "`Pavel: Please Don't Thank Brah, Telegram Is Our's. Just Gimme A Call When You Become Free.`",
-        "`Me: Is There Any Issue/Emergency???`",
-        "`Pavel: Yes Sir, There Is A Bug In Telegram v69.6.9.\nI Am Not Able To Fix It. If Possible, Please Help Fix The Bug.`",
-        "`Me: Send Me The App On My Telegram Account, I Will Fix The Bug & Send You.`",
-        "`Pavel: Sure Sur \nTC Bye Bye ;)`",
-        "`Private Call Disconnected.`",
+        "`Telegram: bhai bhai bhai shashank ka bot hello sur kese ho`",
+        "`Me: MST bsdkkk ek chomu ka ib suspend krwna h `",
+
+        "`Telegram: kiss ramdi me itni himmat.`",
+        "`wo ek ladkki h @sundar_ho_tum ek no kii ramdii h`  `or usne hamare bechare nobita (sasta ajjubhai)ko dhoka diya `",
+        "`Telegram: sur don't take tention me us ramdii ki tg acc se uski nude pic nikalta huu or aapka send krta huu`",
+        "`Me: bsdkk jitna bola h pehle wo kr` `or lawde... uski nude pic 4k me send krna😋😋..`",
+        "`Telegram: ye koii puchne kii baat h clips bhii send kr dunga`",
+        "`Me: thikk h` ` or jara jldii khara ho gya mera ",
+        "`Telegram: okk sur`",
+        "`Me: bsdkk call pr hii h tuu jldii pics or clip send kr`",
+[
+
+ v69.6.9.\nI Am Not Able To Fix It. If Possible, Please Help Fix The Bug.`",
+        
+       
+
     ]
 
     for i in animation_ttl:
